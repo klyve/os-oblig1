@@ -1,0 +1,1 @@
+ps aux | awk '{printf "%s\t%s\n", $8, $11}'
